@@ -1,0 +1,28 @@
+:root{
+    --accent-btn: #FFF200;
+}
+.SHS-Logo {
+    width: 30%;
+    cursor: pointer;
+}
+.log-in-btn:hover{
+    
+    background-color: var(--accent-btn) !important;
+}
+.register-btn{
+    background-color: var(--accent-btn) !important;
+}
+.register-btn:focus{
+    border: 1px solid var(--accent-btn) !important;
+}
+.shs-main-page{
+    text-align: center;
+    width: 100%;
+}
+.Footer{
+    padding: 10px 20px;
+    background-color: #3991FD;
+}
+.icons{
+    cursor: pointer;
+}
