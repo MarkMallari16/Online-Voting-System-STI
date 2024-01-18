@@ -3,13 +3,11 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
-import NavbarToggle from 'react-bootstrap/NavbarToggle';
-import NavbarCollapse from 'react-bootstrap/NavbarCollapse';
 import SHSLogo from '../assets/Logo.png';
 const NavBar = () => {
     return (
 
-        <Container clas>
+        <Container >
             <Navbar collapseOnSelect expand="lg" bg="none" variant="light" data-bs-theme="white">
                 <Navbar.Brand >
                     <img src={SHSLogo} alt="SHSLogo" className='SHS-Logo image-fluid' />

@@ -18,6 +18,7 @@
 .shs-main-page{
     text-align: center;
     width: 100%;
+    filter: brightness(80%);
 }
 .Footer{
     padding: 10px 20px;
